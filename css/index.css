@@ -65,10 +65,52 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/*****This is the code for the pages below*****/
+body {
+    max-width: 800px;
+    font-size: 62.5%;
+    margin: 0 auto;
+    font-size: 1.0rem;
+}
 
-.container {
+/*REMOVED THE BELOW CSS AND REPLACED WITH ABOVE*/
+/* .container {
     width: 800px;
     margin: 0 auto;
+} */
+
+.logoNavBar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3% 0% 3% 0%;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.headerLogo {
+    /* border: 2px red solid; */
+    width: 20%;
+}
+
+.headerNavBar {
+    /* border: 2px green solid; */
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headerNavBar a {
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
+
+.headerImage {
+    width: 100%;
+    margin-bottom: 3%;
 }
 
 .top-content {
@@ -112,6 +154,46 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +225,50 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/******About Page Specific CSS******/
+
+.aboutText {
+    border-bottom: 1px black dashed;
+    margin-bottom: 3%;
+}
+
+.aboutText p {
+    padding-bottom: 2%;
+}
+
+.aboutPageCenterArticles {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.aboutPageCenterArticles img{
+    margin-bottom: 3%;
+}
+
+.center4Boxes {
+    width: 45%;
+    margin: 3% 0% 0% 0%;
+    border-bottom: 1px dashed black;
+}
+
+.aboutPageButtons {
+    border: 2px solid black;
+    width: 35%;
+    border-radius: 10px;
+    margin: 5% 0%;
+}
+
+.aboutPageButtons p {
+    text-align: center;
+    padding: 5% 0% 5% 0%;
+    font-weight: bold;
+}
+
+.aboutPageBottomArticle {
+    width: 100%;
+    padding: 2% 2%;
 }
